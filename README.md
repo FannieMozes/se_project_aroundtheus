@@ -55,3 +55,7 @@ Gallery Section: A dynamic gallery that displays various images from different l
 ## Screenshots
 
 ![Responsive design at different widths ](../320%20width.png)
+
+## Link to Video - explanation of Project 3 - Around the U.S.
+
+https://drive.google.com/file/d/1BGC1YIbkrfBhaiLW5Q_fp3LYtGylCB4k/view?usp=sharing
