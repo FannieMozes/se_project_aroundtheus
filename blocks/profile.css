@@ -101,10 +101,8 @@
   }
 
   .profile__title {
-    display: flex;
     align-items: center;
     font-size: 22px;
-    font-weight: 500;
     line-height: 1.2;
     margin: 0;
     max-width: 282px;
@@ -118,11 +116,11 @@
   }
 
   .profile__description {
-    font-family: Inter, Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 1.21;
     margin-top: 14px;
     text-align: center;
+    max-width: 282px;
   }
 
   .profile__add-button {
