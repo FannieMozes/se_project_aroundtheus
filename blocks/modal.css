@@ -57,6 +57,29 @@
   flex-direction: column;
 }
 
+.modal__fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.modal__input {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 17px;
+  padding-bottom: 13px;
+  border: none;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.2);
+}
+
+.form__input:last-child {
+  margin-bottom: 0;
+}
+
 .modal__save-button {
   color: #fff;
   background-color: #000;
@@ -100,6 +123,28 @@
     flex-direction: column;
     padding-top: 75px;
     max-width: 100%;
+  }
+
+  .modal__fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .modal__input {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 17px;
+    padding-bottom: 13px;
+    max-width: 238px;
+    border: none;
+    border-bottom: 1px solid rgba(84, 84, 84, 0.2);
+  }
+
+  .modal__input:last-child {
+    margin-bottom: 0;
   }
 
   .modal__save-button {
