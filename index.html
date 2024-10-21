@@ -33,6 +33,7 @@
             <button
               class="profile__edit-button"
               type="button"
+              id="profile-edit-button"
               aria-label="edit profile"
             ></button>
             <p class="profile__description">Explorer</p>
@@ -40,6 +41,7 @@
           <button
             class="profile__add-button"
             type="button"
+            id="profile-add-button"
             aria-label="Add images"
           ></button>
         </section>
@@ -139,9 +141,14 @@
       </footer>
     </div>
 
-    <div class="modal">
+    <div class="modal" id="profile-edit-modal">
       <div class="modal__container">
-        <button class="modal__close" type="button" aria-label="close"></button>
+        <button
+          class="modal__close"
+          type="button"
+          id="modal-close-button"
+          aria-label="close"
+        ></button>
         <p class="modal__heading">Edit profile</p>
         <form class="modal__form">
           <fieldset class="modal__fieldset">
